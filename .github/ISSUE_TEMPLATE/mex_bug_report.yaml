@@ -9,10 +9,12 @@ body:
     options:
       - label: I have searched the existing issues
         required: true
- - type: checkboxes
+ - type: dropdown
+   id: ProductVersion
    attributes:
-    label: Replicatable?
-    description: The bug can be replicated twice?
+    label: What version you are using?
     options:
-      - label: Yes more than twice
-        required: true
+      - 1.0
+      -1.1
+    validations:
+     required: true
