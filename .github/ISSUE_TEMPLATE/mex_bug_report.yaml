@@ -9,3 +9,7 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
+  -type: checkboxes
+    attributes:
+      label: Testing
+      description: Testing
