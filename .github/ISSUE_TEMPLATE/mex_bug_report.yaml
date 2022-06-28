@@ -18,7 +18,16 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-
+  - type: dropdown
+    id: raisedby
+    attributes:
+      label: Raised By
+      description: What version of our software are you running?
+      options:
+        - Alex Parker
+        - Bonnie Tang
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
