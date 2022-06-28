@@ -1,6 +1,6 @@
 name: 🐞 MEX 16 Bug Report
 description: File a bug report
-title: ["Keep it fairly short but still more descriptive than e.g. WO is broken"]
+title: "Keep it fairly short but still more descriptive than e.g. WO is broken"
 labels: ["MEX 16 Bug Report"]
 body:
   - type: checkboxes
