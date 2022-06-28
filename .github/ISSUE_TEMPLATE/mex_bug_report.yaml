@@ -4,14 +4,13 @@ title: "Keep it fairly short but still more descriptive than e.g. WO is broken"
 labels: ["MEX 16 Bug Report"]
 Assignee:
    - Bonnie Tang
-   - Buzz
 body:
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
       description: Please search to see if an issue already exists for the bug you encountered.
       options:
-        label: I have searched the existing issues
+        - label: I have searched the existing issues
         required: true
   - type: markdown
     attributes:
