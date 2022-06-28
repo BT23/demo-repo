@@ -22,7 +22,7 @@ body:
     id: raisedby
     attributes:
       label: Reported By
-      description: This bug is reported by?
+      description: This bug is created by
       options:
         - Alex Parker
         - Bonnie Tang
@@ -34,7 +34,7 @@ body:
       label: Steps to reproduce the issue
       description: What another person has to do to see the bug
       placeholder: Tell us what you see!
-      value: "1. &nbsp 2."
+      value: "1."<br> "2."
     validations:
       required: true
   - type: dropdown
