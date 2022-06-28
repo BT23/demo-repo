@@ -34,7 +34,7 @@ body:
       label: Steps to reproduce the issue
       description: What another person has to do to see the bug
       placeholder: Tell us what you see!
-      value: "1."<br> "2."
+      value: "1. <br> 2."
     validations:
       required: true
   - type: dropdown
