@@ -49,9 +49,10 @@ body:
      value: "1. \n2. \n3."
    validations:
      required: true
-- type: textarea
-  attributes:
-    label: Actual Result
-    description: A clear and concise description of what the bug is.
-  validations:
-    required: true
+ - type: textarea
+   id: Actual Result
+   attributes:
+     label: Actual Result
+     description: A clear and concise description of what the bug is.
+   validations:
+     required: true
