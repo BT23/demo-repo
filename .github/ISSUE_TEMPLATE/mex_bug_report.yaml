@@ -15,6 +15,6 @@ body:
     label: What version you are using?
     options:
       - 1.0
-      -1.1
+      - 1.1
     validations:
      required: true
