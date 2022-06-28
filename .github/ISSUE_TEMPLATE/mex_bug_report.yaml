@@ -21,7 +21,7 @@ body:
  - type: dropdown
    id: browser
    attributes:
-    label: Issue occurs on specifc browser?
+    label: Issue occurs on specific browser?
     options:
       - All (Chrome, Edge, FireFox, Safari)
       - Chrome
