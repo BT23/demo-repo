@@ -17,14 +17,3 @@ body:
       options:
         - 1.0
         - 1.1
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - All
-        - Chrome 
-        - Firefox
-        - Microsoft Edge
-        - Safari
