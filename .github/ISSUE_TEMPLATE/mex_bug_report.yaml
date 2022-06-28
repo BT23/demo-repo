@@ -3,11 +3,9 @@ description: File a bug report
 title: "[Bug]: "
 labels: ["Bug", "Performance", ""]
 assignees:
-  - type: dropdown
-    id: assignees
-    - Bonnie Tang
-    - Roger Federer
-    - Rafa Nadal
+   - Bonnie Tang
+   - Roger Federer
+   - Rafa Nadal
 body:
   - type: checkboxes
     attributes:
