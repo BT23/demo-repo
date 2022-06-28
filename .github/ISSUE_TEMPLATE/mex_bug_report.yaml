@@ -27,7 +27,7 @@ body:
          - Bonnie Tang
          - Callum Earle
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
