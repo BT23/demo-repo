@@ -1,6 +1,7 @@
 name: 🐞 MEX 16 Bug Report
 description: "This bug report is only for MEX 16."
 title: "[Module]-[Sub module]-[Bug Description]"
+Labels: "MEX 16, Bug"
 body:
  - type: checkboxes
    attributes:
