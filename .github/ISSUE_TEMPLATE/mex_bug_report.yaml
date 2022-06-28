@@ -2,8 +2,6 @@ name: 🐞 MEX 16 Bug Report
 description: File a bug report
 title: "Keep it fairly short but still more descriptive than e.g. WO is broken"
 labels: ["MEX 16 Bug Report"]
-Assignee:
-   - Bonnie Tang
 body:
   - type: checkboxes
     attributes:
@@ -16,7 +14,25 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-
+   - type: dropdown
+    id: versions
+    attributes:
+      label: What MEX 16 version are you using?
+      multiple: true
+      options:
+        - 1.0
+        - 1.1
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - All
+        - Chrome 
+        - Firefox
+        - Microsoft Edge
+        - Safari
   - type: dropdown
     id: raisedby
     attributes:
