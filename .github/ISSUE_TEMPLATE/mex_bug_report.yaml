@@ -1,6 +1,6 @@
 name: 🐞 MEX 16 Bug Report
 description: "Only file a bug which can replicate more than once!"
-title: ""
+title: "[Module]-[Sub module]-[Bug Description]"
 body:
   - type: checkboxes
     attributes:
