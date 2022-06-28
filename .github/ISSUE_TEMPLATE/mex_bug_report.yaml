@@ -9,11 +9,9 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
-   - type: dropdown
-    id: versions
-    attributes:
-      label: What MEX 16 version are you using?
-      multiple: true
-      options:
-        - 1.0
-        - 1.1
+- type: textarea
+  attributes:
+    label: Describe the bug
+    description: A clear and concise description of what the bug is.
+  validations:
+    required: true
