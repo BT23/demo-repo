@@ -40,12 +40,12 @@ body:
        - Bonnie Tang
    validations:
      required: true
-- type: textarea
-    id: repo
-    attributes:
-      label: Steps to reproduce the issue
-      description: What another person has to do to see the bug
-      placeholder: Tell us what you see!
-      value: "1. \n2. \n3."
-    validations:
-      required: true
+ - type: textarea
+   id: repo
+   attributes:
+     label: Steps to reproduce the issue
+     description: What another person has to do to see the bug
+     placeholder: Tell us what you see!
+     value: "1. \n2. \n3."
+   validations:
+     required: true
