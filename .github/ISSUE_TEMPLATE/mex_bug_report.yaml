@@ -4,6 +4,7 @@ title: "[Bug]: "
 labels: ["Bug", "Performance", ""]
 assignees:
   - type: dropdown
+    id: assignees
     - Bonnie Tang
     - Roger Federer
     - Rafa Nadal
