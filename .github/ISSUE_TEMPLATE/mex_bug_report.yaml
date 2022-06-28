@@ -18,3 +18,11 @@ body:
       - 1.1
    validations:
      required: true
+ - type: dropdown
+   id: browser
+   attributes:
+    label: Issue occurs on specifc browser?
+    options:
+      - All (Chrome, Edge, FireFox, Safari), Chrome, Microsoft Edge, FireFox, Safari
+   validations:
+     required: true
