@@ -62,3 +62,9 @@ body:
      description: A clear and concise description of what you expected to happen.
    validations:
      required: false
+ - type: textarea
+   attributes:
+     label: Additional Information / Logs / Videos / Screenshots 
+     description: Links? References? Anything that will give us more context about the issue you are encountering!
+   validations:
+     required: false
