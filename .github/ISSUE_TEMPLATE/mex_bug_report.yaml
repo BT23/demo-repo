@@ -20,6 +20,26 @@ body:
    validations:
      required: true
  - type: dropdown
+   id: wostatus
+   attributes:
+    label: WO Status?
+    options:
+      - Bug Accepted
+      - Bug Declined
+      - Cancelled
+      - Closed
+      - Entered
+      - External Test
+      - Internal Test
+      - Investigation Required
+      - Scheduled
+      - Solution Provided
+      - Started
+      - Test Failed
+      - Test Passed
+   validations:
+     required: true     
+ - type: dropdown
    id: browser
    attributes:
     label: Issue occurs on specific browser?
