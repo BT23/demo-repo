@@ -31,6 +31,7 @@ body:
       - Entered
       - External Test
       - Internal Test
+      - In Progress
       - Investigation Required
       - Scheduled
       - Solution Provided
@@ -44,11 +45,11 @@ body:
    attributes:
     label: Bug Severity?
     options:
-      - Blocker (S1): Showstopper
-      - Critical (S2): Incorrect functionality but have workaround
-      - Major (S3): Significant impact but system remains functional
-      - Minor (S4): Undesirable behavior but system still functional
-      - Low (S5): Do not affect system functionality
+      - Critical: Showstopper
+      - Major: Key feature failed but have workaround
+      - Moderate: Feature failed but no huge impact
+      - Minor: Undesirable behavior but no major impact
+      - Cosmetic: No impact on the functionality
    validations:
      required: true        
  - type: dropdown
