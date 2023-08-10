@@ -9,7 +9,7 @@ body:
     description: Please search to see if an issue already exists for the bug you encountered.
     options:
       - label:  I have searched the existing issues
-        required: true
+        required: false
  - type: dropdown
    id: ProductVersion
    attributes:
@@ -24,8 +24,6 @@ body:
    attributes:
     label: WO Status?
     options:
-      - Bug Accepted
-      - Bug Declined
       - Cancelled
       - Closed
       - Entered
