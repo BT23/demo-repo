@@ -5,11 +5,11 @@ labels: "MEX 16, Bug"
 body:
  - type: checkboxes
    attributes:
-    label: Is this issue by design?
+    label: Is there an existing issue for this?
     description: Please search to see if an issue already exists for the bug you encountered.
     options:
-      - label: Yes, it is by design!
-        required: false
+      - label:  I have searched the existing issues
+        required: true
  - type: dropdown
    id: ProductVersion
    attributes:
