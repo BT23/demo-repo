@@ -9,7 +9,7 @@ body:
     description: Please search to see if an issue already exists for the bug you encountered.
     options:
       - label: Yes, it is by design!
-        required: true
+        required: false
  - type: dropdown
    id: ProductVersion
    attributes:
