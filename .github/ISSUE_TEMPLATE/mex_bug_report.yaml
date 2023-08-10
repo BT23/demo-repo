@@ -8,15 +8,15 @@ body:
     label: Is this issue by design?
     description: Please search to see if an issue already exists for the bug you encountered.
     options:
-      - label: I have searched the existing issues
+      - label: Yes, it is by design!
         required: true
  - type: dropdown
    id: ProductVersion
    attributes:
-    label: What version you are using?
+    label: What round of testing?
     options:
-      - 1.0
-      - 1.1
+      - 1
+      - 2
    validations:
      required: true
  - type: dropdown
