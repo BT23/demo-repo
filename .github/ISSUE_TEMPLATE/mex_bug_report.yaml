@@ -66,8 +66,7 @@ body:
      label: Reported By
      description: Who should be contacted if the reported bug cannot replicate?
      options:
-       - Alex Parker
-       - Bonnie Tang
+       - Bonnie Tang (default)
    validations:
      required: true
  - type: textarea
