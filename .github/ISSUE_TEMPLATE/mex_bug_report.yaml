@@ -63,7 +63,6 @@ body:
      placeholder: Tell us what you see!
      value: |
         "Steps: \t Expected Result \t Actual Result"
-     render: markdown
    validations:
      required: true
  - type: textarea
