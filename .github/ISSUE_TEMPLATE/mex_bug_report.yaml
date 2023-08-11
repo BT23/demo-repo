@@ -61,8 +61,12 @@ body:
      label: Steps to reproduce the issue
      description: What another person has to do to see the bug
      placeholder: Tell us what you see!
-     value:
-        "\tSteps \t\t\t\t\tExpected Result \t\t\t\t\tActual Result \n1. \n2. \n3."
+     value: |
+        | Steps | Expected Result | Actual Result |
+        |-------|-----------------|---------------|
+        |`1.    |                 |               |
+        |`2.    |                 |               |
+     render: markdown
    validations:
      required: true
  - type: textarea
