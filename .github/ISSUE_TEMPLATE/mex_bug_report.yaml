@@ -38,6 +38,7 @@ body:
       - Moderate: Feature failed but no huge impact
       - Minor: Undesirable behavior but no major impact
       - Cosmetic: No impact on the functionality
+    default: 2      
    validations:
      required: true
  - type: dropdown
