@@ -3,10 +3,12 @@ description: "This bug report is only for MEX 16."
 title: "[Module]-[Sub module]-[Bug Description]"
 labels: "MEX 16, Bug"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+ - uses: actions/github-script@v6
+   id: set-result
+   with:
+     script: return "Hello!"
+ - name: Get result
+   run: echo"${{steps.set-result.outputs.result}}"
  - type: checkboxes
    attributes:
     label: Is there an existing issue for this?
