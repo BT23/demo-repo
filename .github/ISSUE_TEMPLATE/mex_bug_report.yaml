@@ -88,7 +88,7 @@ body:
 - type: textarea
   attributes:
     label: Environment
-    description: |
+    description:
       examples:
         - **OS**: Ubuntu 20.04
         - **Node**: 13.14.0
