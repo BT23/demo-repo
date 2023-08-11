@@ -11,15 +11,6 @@ body:
       - label:  I have searched the existing issues
         required: false
  - type: dropdown
-   id: ProductVersion
-   attributes:
-    label: What round of testing?
-    options:
-      - 1
-      - 2
-   validations:
-     required: true
- - type: dropdown
    id: wostatus
    attributes:
     label: WO Status?
@@ -47,18 +38,6 @@ body:
       - Minor: Undesirable behavior but no major impact
       - Cosmetic: No impact on the functionality
    validations:
-     required: true        
- - type: dropdown
-   id: browser
-   attributes:
-    label: Issue occurs on specific browser?
-    options:
-      - All (Chrome, Edge, FireFox, Safari)
-      - Chrome
-      - Microsoft Edge
-      - FireFox
-      - Safari
-   validations:
      required: true
  - type: dropdown
    id: raisedby
@@ -66,7 +45,7 @@ body:
      label: Reported By
      description: Who should be contacted if the reported bug cannot replicate?
      options:
-       - Bonnie Tang (default)
+       - Bonnie Tang
    validations:
      required: true
  - type: textarea
