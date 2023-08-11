@@ -25,7 +25,7 @@ body:
       - Started
       - Test Failed
       - Test Passed
-   default: 2
+    default: 2
    validations:
      required: true
  - type: dropdown
