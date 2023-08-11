@@ -3,6 +3,10 @@ description: "This bug report is only for MEX 16."
 title: "[Module]-[Sub module]-[Bug Description]"
 labels: "MEX 16, Bug"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
  - type: checkboxes
    attributes:
     label: Is there an existing issue for this?
