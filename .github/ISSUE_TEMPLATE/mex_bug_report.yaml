@@ -62,7 +62,7 @@ body:
      description: What another person has to do to see the bug
      placeholder: Tell us what you see!
      value: |
-        Steps: \t Expected Result \t Actual Result
+        "Steps: \t Expected Result \t Actual Result"
      render: markdown
    validations:
      required: true
