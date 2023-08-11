@@ -46,6 +46,8 @@ body:
      description: Who should be contacted if the reported bug cannot replicate?
      options:
        - Bonnie Tang
+       - Buzz
+     default: Bonnie Tang
    validations:
      required: true
  - type: textarea
