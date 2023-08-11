@@ -45,9 +45,11 @@ body:
      label: Reported By
      description: Who should be contacted if the reported bug cannot replicate?
      options:
-       - Alex Parker
-       - Bonnie Tang
+       - Bonnie
        - Buzz
+       - Curtis
+       - Ryan
+       - Tyler
      default: 1
    validations:
      required: true
