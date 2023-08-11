@@ -3,12 +3,6 @@ description: "This bug report is only for MEX 16."
 title: "[Module]-[Sub module]-[Bug Description]"
 labels: "MEX 16, Bug"
 body:
- - uses: actions/github-script@v6
-   id: set-result
-   with:
-     script: return "Hello!"
- - name: Get result
-   run: echo"${{steps.set-result.outputs.result}}"
  - type: checkboxes
    attributes:
     label: Is there an existing issue for this?
@@ -84,7 +78,7 @@ body:
      label: Steps to reproduce the issue
      description: What another person has to do to see the bug
      placeholder: Tell us what you see!
-     value: "1. \n2. \n3."
+     value: "1. \n2. \n3. |"
    validations:
      required: true
  - type: textarea
