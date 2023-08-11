@@ -62,7 +62,7 @@ body:
      description: What another person has to do to see the bug
      placeholder: Tell us what you see!
      value:
-        "\tSteps \tExpected Result \tActual Result"
+        "Steps \tExpected Result \tActual Result"
    validations:
      required: true
  - type: textarea
