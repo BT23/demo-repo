@@ -38,11 +38,11 @@ body:
       - Moderate: Feature failed but no huge impact
       - Minor: Undesirable behavior but no major impact
       - Cosmetic: No impact on the functionality
-    default: 2      
+     default: 2      
    validations:
      required: true
  - type: dropdown
-   id: raisedby
+   id: reportedby
    attributes:
      label: Reported By
      description: Who should be contacted if the reported bug cannot replicate?
