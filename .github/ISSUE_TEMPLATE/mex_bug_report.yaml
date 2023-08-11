@@ -34,10 +34,10 @@ body:
     label: Bug Severity?
     options:
       - Critical: "Showstopper"
-      - Major: Key feature failed but have workaround
-      - Moderate: Feature failed but no huge impact
-      - Minor: Undesirable behavior but no major impact
-      - Cosmetic: No impact on the functionality
+      - Major: "Key feature failed but have workaround"
+      - Moderate: "Feature failed but no huge impact"
+      - Minor: "Undesirable behavior but no major impact"
+      - Cosmetic: "No impact on the functionality"
     default: 1
    validations:
      required: true
