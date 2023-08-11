@@ -70,7 +70,6 @@ body:
    attributes:
      label: 👎 Actual Result
      description: A clear and concise description of what the bug is.
-     placeholder: Enter whatever you like
    validations:
      required: true
  - type: textarea
