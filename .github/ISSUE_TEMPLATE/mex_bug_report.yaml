@@ -50,7 +50,7 @@ body:
        - Curtis
        - Ryan
        - Tyler
-     default: 1
+     default: 0
    validations:
      required: true
  - type: textarea
