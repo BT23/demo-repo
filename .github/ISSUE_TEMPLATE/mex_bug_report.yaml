@@ -3,6 +3,13 @@ description: "This bug report is only for MEX 16."
 title: "[Module]-[Sub module]-[Bug Description]"
 labels: "MEX 16, Bug"
 body:
+-type: object
+ properties:
+    delivery_date:
+      format: date
+      description: An example date.
+      type: string
+      example: 2019-12-23
  - type: checkboxes
    attributes:
     label: Is there an existing issue for this?
