@@ -1,10 +1,7 @@
----
 name: 🐞 MEX 16 Bug Report
 description: "This bug report is only for MEX 16."
 title: "[Module]-[Sub module]-[Bug Description]"
 labels: "MEX 16, Bug"
-date: `r Sys.Date()`
----
 body:
  - type: checkboxes
    attributes:
