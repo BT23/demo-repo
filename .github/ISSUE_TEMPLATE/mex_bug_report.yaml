@@ -93,6 +93,6 @@ body:
    attributes:
      label: Regression Test Case
      description: |
-     Regression Test Case Details
+      Regression Test Case Details
    validations:
      required: false
