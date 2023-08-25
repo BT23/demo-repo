@@ -91,7 +91,7 @@ body:
      required: false
  - type: textarea
    attributes:
-     label: Regression Test Case / Functionality Note:
+     label: Regression Test Case / Functionality Note
      description: |
       Regression Test Case Details / Function Changes Note
    validations:
