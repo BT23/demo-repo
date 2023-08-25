@@ -93,6 +93,6 @@ body:
    attributes:
      label: Regression Test Case / Functionality Note
      description: |
-      Regression Test Case Details / Function Changes Note
+      Regression Test Case Details / Function Changed Details
    validations:
      required: false
