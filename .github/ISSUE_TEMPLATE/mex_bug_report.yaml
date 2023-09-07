@@ -62,10 +62,7 @@ body:
      description: What another person has to do to see the bug
      placeholder: Tell us what you see!
      value: |
-        | Steps | Expected Result | Actual Result |
-        |-------|:---------------:|:-------------:|
-        |1.     |                 |               |
-        |2.     |                 |               |
+      1./n 2. /n 3.
    validations:
      required: true
  - type: textarea
