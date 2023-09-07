@@ -62,9 +62,9 @@ body:
      description: What another person has to do to see the bug
      placeholder: Tell us what you see!
      value: |
-     1.
-     2.
-     3.
+      1.
+      2.
+      3.
    validations:
      required: true
  - type: textarea
