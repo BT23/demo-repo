@@ -62,9 +62,9 @@ body:
      description: What another person has to do to see the bug
      placeholder: Steps to reproduce the behavior.
      value: |
-      1.\n
-      2.\n
-      3.\n
+      1.
+      2.
+      3.
    validations:
      required: true
  - type: textarea
