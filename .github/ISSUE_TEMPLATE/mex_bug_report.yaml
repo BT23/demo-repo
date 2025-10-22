@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: "This bug report is only for Bonnie Demo."
-bug title: "[Module]-[Sub module]-[Bug Description]"
+title: "[Module]-[Sub module]-[Bug Description]"
 labels: "Bug"
 body:
  - type: checkboxes
