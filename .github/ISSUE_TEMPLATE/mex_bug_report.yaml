@@ -1,7 +1,7 @@
-name: 🐞 MEX 16 Bug Report
-description: "This bug report is only for MEX 16."
-title: "[Module]-[Sub module]-[Bug Description]"
-labels: "MEX 16, Bug"
+name: 🐞 Bug Report
+description: "This bug report is only for Bonnie Demo."
+Issue title: "[Module]-[Sub module]-[Bug Description]"
+labels: "Bug"
 body:
  - type: checkboxes
    attributes:
@@ -11,21 +11,16 @@ body:
       - label:  I have searched the existing issues
         required: false
  - type: dropdown
-   id: wostatus
+   id: issuetype
    attributes:
-    label: WO Status?
+    label: Select Type
     options:
-      - Cancelled
-      - Closed
-      - Entered
-      - In Progress
-      - Investigation Required
-      - Scheduled
-      - Solution Provided
-      - Started
-      - Test Failed
-      - Test Passed
-    default: 2
+      - Content
+      - Crash
+      - Functional
+      - Performance
+      - Visual
+    default: 3
    validations:
      required: true
  - type: dropdown
@@ -48,11 +43,6 @@ body:
      description: Who should be contacted if the reported bug cannot replicate?
      options:
        - Bonnie
-       - Buzz
-       - Curtis
-       - Josh K
-       - Ryan
-       - Tyler
      default: 0
    validations:
      required: true
