@@ -11,15 +11,15 @@ body:
       - label:  I have searched the existing issues
         required: false
  - type: dropdown
-   id: type
+   id: selecttype
    attributes:
     label: Select Type
     options:
-      - Content
-      - Crash
-      - Functional
-      - Performance
-      - Visual
+      - "Content"
+      - "Crash"
+      - "Functional"
+      - "Performance"
+      - "Visual"
     default: 3
    validations:
      required: true
